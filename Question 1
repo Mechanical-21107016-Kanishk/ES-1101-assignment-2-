@@ -1,0 +1,24 @@
+#1
+my_string = 'Python is a case sensitive language'
+
+# displaying the string
+print(my_string, "\n")
+
+# length of the string
+print("(a) Length is", len(my_string), "\n")
+
+# string in reverse order
+print("(b)", my_string[::-1], "\n")
+
+# slicing the string
+new_string = my_string[slice(12,35)]
+print("(c)", new_string, "\n")
+
+# replacing the string 
+print("(d)", my_string.replace("a case sensitive", "object oriented"), "\n")
+
+# finding index of substring a
+print("(e) Index of a is", my_string.find("a"), "\n")
+
+# removing all white spaces
+print("(f)", my_string.replace(" ", ""))
